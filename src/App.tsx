@@ -21,7 +21,7 @@ const data: Person[] = Array.from({ length: 1000 }, (_, rowIndex) => {
 function App() {
   return (
     <div className="p-6 min-h-screen bg-gray-50 flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-6">Virtualized Table using react-window and tenstack tables</h1>
+      <h1 className="text-2xl font-bold mb-6">Virtualized Table using react-window </h1>
       {/* <VirtualTable /> */}
        <VirtualizedTable data={data} columns={columns} />
     </div>
