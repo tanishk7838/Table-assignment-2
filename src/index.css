@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* 
+.body-class div:nth-child(1),
+.header-class :nth-child(1){
+  position: sticky !important;
+  left: 0px  !important;
+  z-index: 10px;
+  background: white;
+}
+
+.body-class div:nth-child(2),
+.header-class :nth-child(2){
+  position: sticky;
+  left: 120px;
+  z-index: 10px;
+  background: white;
+}
+
+.body-class div:last-child,
+.header-class :last-child{
+  position: sticky !important;
+  right: 0px  !important;
+  z-index: 10px;
+  background: white;
+}
+
+.body-class div:nth-last-child(2),
+.header-class :nth-last-child(2){
+  position: sticky;
+  right: 120px;
+  z-index: 10px;
+  background: white;
+} */
